@@ -18,7 +18,7 @@ const Features = forwardRef((props, ref) => {
       >
         {features.map((item, index) => (
           <div
-            className="bg-lightpurple bg-opacity-25 h-[239px] md:w-[295px] w-[305px]  p-5 ml-3"
+            className="bg-lightpurple bg-opacity-25 h-[239px] md:w-[295px] w-[305px]  p-5 md:ml-3 ml-0"
             key={index}
           >
             <h2 className="font-[500] md:text-xl text-16 text-white">

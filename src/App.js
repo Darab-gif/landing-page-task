@@ -19,7 +19,7 @@ function App() {
   const features = useRef();
   const body = useRef(null);
   return (
-    <div className="bg-primary relative" ref={body}>
+    <div className="bg-primary overflow-x-hidden " ref={body}>
       <Hero about={about} plan={plan} features={features} />
       <Features ref={features} />
       <About ref={about} />

@@ -14,13 +14,13 @@ const PlanAndPrice = forwardRef((props, ref) => {
       <div className="flex gap-8 md:flex-row flex-col py-20">
         {/* Free card */}
         <div
-          className="h-[510px] w-[340px] bg-purple bg-opacity-20 rounded-[16px] p-5"
+          className="h-[510px] md:w-[340px] w-[310px] bg-purple bg-opacity-20 rounded-[16px] p-5"
           data-aos="fade-left"
           data-aos-duration="3000"
         >
           <h1 className="text-16 text-white py-6">Free</h1>
           <p className="text-white text-small pb-6">$0</p>
-          <button className="w-[280px] py-4 text-white bg-purple rounded-[16px]">
+          <button className="w-[280px] py-4 text-white bg-purple rounded-[16px] ml-[-8px] md:ml-0">
             Get Started
           </button>
           <ul className="text-white mt-10">
@@ -29,7 +29,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -39,7 +39,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -49,7 +49,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -59,7 +59,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -68,13 +68,13 @@ const PlanAndPrice = forwardRef((props, ref) => {
         </div>
         {/* Lite card */}
         <div
-          className="h-[510px] w-[340px] bg-blue bg-opacity-20 rounded-[16px] p-5"
+          className="h-[510px] md:w-[340px] w-[310px] bg-blue bg-opacity-20 rounded-[16px] p-5"
           data-aos="fade-down"
           data-aos-duration="3000"
         >
           <h1 className="text-16 text-white py-6">Lite</h1>
           <p className="text-white text-small pb-6">$24</p>
-          <button className="w-[280px] py-4 text-white bg-blue rounded-[16px]">
+          <button className="w-[280px] py-4 text-white bg-blue rounded-[16px] ml-[-8px] md:ml-0">
             Get Started
           </button>
           <ul className="text-white mt-10">
@@ -83,7 +83,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -93,7 +93,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -103,7 +103,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -113,7 +113,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -123,7 +123,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -132,13 +132,13 @@ const PlanAndPrice = forwardRef((props, ref) => {
         </div>
         {/* Standard card */}
         <div
-          className="h-[510px] w-[340px] bg-cyan bg-opacity-20 rounded-[16px] p-5"
+          className="h-[510px] md:w-[340px] w-[310px] bg-cyan bg-opacity-20 rounded-[16px] p-5"
           data-aos="flip-right"
           data-aos-duration="3000"
         >
           <h1 className="text-16 text-white py-6">Standard</h1>
           <p className="text-white text-small pb-6">$40</p>
-          <button className="w-[280px] py-4 text-white bg-cyan rounded-[16px]">
+          <button className="w-[280px] py-4 text-white bg-cyan rounded-[16px] ml-[-8px] md:ml-0">
             Get Started
           </button>
           <ul className="text-white mt-10">
@@ -147,7 +147,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -157,7 +157,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -167,7 +167,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -177,7 +177,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -187,7 +187,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -197,7 +197,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
@@ -207,7 +207,7 @@ const PlanAndPrice = forwardRef((props, ref) => {
               <span>
                 <FaRegCheckCircle />
               </span>{" "}
-              <span className="text-14">
+              <span className="md:text-14 text-[13px]">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur.
               </span>
